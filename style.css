@@ -12,7 +12,7 @@
     background-size: cover;
     transition: 1s;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(five.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(bg.jpg);
     background-attachment: fixed;
 
 }
