@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(five.jpg);
+    background-attachment: fixed;
+
+}
+
+.nav-link {
+    color: white;
+}
+
+
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 20px;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+
+    color: rgb(255, 255, 255);
+    margin-right: 25px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    /* background-color: rgb(78, 44, 44); */
+    padding: 3px 0px;
+    /* border: 1px solid white; */
+
+}
+
+nav ul li a:after {
+
+    content: " ";
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgb(197, 247, 104);
+    position: absolute;
+    transition: 0.4s;
+}
+
+
+nav ul li a:hover:after {
+    width: 100%;
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.myNavbar {
+
+    background-color: black;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-toggler {
+
+    color: transparent;
+
+}
+
+#myIcon {
+    color: white;
+    font-size: 24px;
+    padding-top: 5px;
+}
+
+.navM {
+    color: red;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.majeed {
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+
+}
+
+.center-box {
+    height: 500px;
+    width: 800px;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.center-box span {
+
+    color: white;
+
+    font-size: 23px;
+}
+
+.center-box h1 {
+
+    color: white;
+    font-size: 60px;
+}
+
+.center-box p {
+    color: white;
+    font-size: 20px;
+}
+
+.btn1 {
+
+    height: 45px;
+    width: 180px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(214, 214, 16);
+    color: white;
+}
+
+.btn2 {
+
+    height: 45px;
+    width: 160px;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    color: yellow;
+    border: 1px solid yellow;
+    margin-left: 10px
+}
+
+.center-box .yelo {
+    color: rgb(243, 243, 119);
+    font-size: 60px;
+}
+
+.main2 {
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.right-span {
+    color: rgb(248, 248, 44);
+}
+
+
+
+.main2-left {
+    width: 40%;
+    background-size: cover;
+  
+}
+.main2-left img{
+    height: 540px;
+    width: 90%;
+}
+
+
+.main2-right {
+    min-height: 89%;
+    width: 60%;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main3 {
+  min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+}
+
+.main4 {
+    min-height: 70vh;
+    text-align: center;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    /* background-attachment: fixed; */
+}
+.main4 h1{
+     padding-top: 15px;
+}
+.bmw{
+    width: 100%;
+    margin-top: 40px;
+    /* background-color: rgb(36, 81, 177); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pastor-cards{
+    height: 480px;
+    width: 300px;
+    /* background-color: black; */
+}
+.pastor-cards img{
+    height: 320px;
+}
+.pastor-cards h2{
+
+    font-size: 20px;
+    padding-top: 12px;
+
+}
+.pastor-cards span{
+    font-size: 15px;
+}
+.pastor-cards i{
+    padding: 10px 2px;
+}
+.main5{
+    height: 70vh;
+    width: 100%;
+    /* background-color: rgb(29, 20, 20); */
+    text-align: center;
+}
+.main5 h1{
+
+    padding-top: 20px;
+}
+.main-5center{
+    height: 50vh;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.a5center-left{
+
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+.a5center-right{
+
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(224, 64, 24); */
+
+}
+.a5center-left h3{
+    font-size: 17px;
+    margin-top: 20px;
+}
+.a5center-left i{
+    font-size: 15px;
+   color:  rgb(181, 224, 101) ;
+}
+
+.a5center-right input[type='text']{
+
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 221, 217);
+    margin-top: 10px;
+    width: 80%;
+    padding-left: 10px;
+}
+.a5center-right textarea{
+
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid rgb(219, 221, 217);
+}
+.a5center-right button{
+
+    height: 40px;
+    width: 160px;
+    border-radius: 10px;
+    border: none;
+    background-color:  rgb(192, 253, 77) ;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width : 700px) {
+
+    .nav-link {
+
+        margin-right: 0;
+        text-align: right;
+    }
+
+    .btn2 {
+
+        margin-top: 20px;
+    }
+
+    .main2 {
+        flex-direction: column;
+    }
+
+    .main2-right {
+        width: 100%;
+
+    }
+
+    .main2-right p {
+        margin-top: 10px;
+    }
+    .main2-left{
+
+        width: 100%;
+    }
+    .main2-left img{
+
+        width: 100%;
+    }
+
+}
