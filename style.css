@@ -342,7 +342,14 @@ nav ul li a:hover:after {
     background-color:  rgb(192, 253, 77) ;
 }
 
-
+footer{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 241, 241);
+}
 
 
 
