@@ -27,7 +27,7 @@ setInterval(() => {
   }
   if (loo > 3) {
 
-    loo = 0
+    loo = 0 ;
   }
 
   console.log(loo);
